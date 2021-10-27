@@ -1,0 +1,213 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: serif;
+}
+
+/*first section*/
+.first {
+    background-color: #1F2937;
+    padding: 0 20%;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+
+.first-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.first-content-left {
+    flex: 1;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-content-right {
+    flex: 1;
+    margin-left: 50px;
+
+}
+
+#logo {
+    height: 30px;
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.first-content img {
+    height: 500px;
+    width: auto;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/*second section*/
+
+.second img {
+    height: 100px;
+    width: 100px;
+}
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 20%;
+}
+
+.second-top {
+    display: flex;
+    justify-content: center;
+}
+
+.second-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.second-bottom img {
+    border-style: solid;
+    border-radius: 12px;
+}
+
+.second-bottom p {
+    text-align: center;
+}
+
+/*third section*/
+
+.third {
+    flex: 1;
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 0 20%;
+
+}
+
+.third blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.third p {
+    display: flex;
+    justify-content: right;
+    margin-right: 10%;
+    width: auto;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+/*fourth section*/
+
+.fourth {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.above-footer {
+    flex: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 0 20%;
+    margin: 40px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3882F6;
+
+}
+
+.above-footer p {
+    color: white;
+}
+
+.above-footer button {
+    border-color: white;
+    border-style: solid;
+}
+
+.fourth-left {
+    flex: 2 2 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.fourth-right {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: right;
+}
+
+#p-one {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#p-two {
+    margin-top: 0px;
+}
+
+footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
